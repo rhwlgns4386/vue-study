@@ -139,7 +139,18 @@
             </div>
           </div>
         </div>
-        <div class="w-2/5">trend</div>
+        <div class="hidden lg:block w-2/5 px-4 py-2">
+          <div class="relative mb-5">
+            <input placeholder="트위터 검색" class="pl-10 rounded-full w-full p-2 bg-gray-100 text-sm focus:outline-none focus:ring-1 focus:ring-primary focus:bg-white">
+            <i class="fas fa-search absolute left-0 mt-2 ml-3 text-sm text-light"></i>
+          </div>
+          <div class="w-full rounded-lg bg-gray-50">
+            <div class="flex items-center justify-between px-3 py-1 border-gray-100">
+              <span class="text-lg font-bold">나를 위한 트랜드</span>
+              <i class="text-center fas fa-cog text-lg text-primary hover:bg-blue-50 p-2 rounded-full"></i>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
