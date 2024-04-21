@@ -6,6 +6,13 @@ button{
   @apply focus:outline-none;
 }
 
+.border-color{
+  @apply border-gray-100;
+}
+
+.text-gray{
+  @apply text-gray-500;
+}
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
